@@ -1,0 +1,107 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="css/reset.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="css/common.css" type="text/css" media="all" />
+<title>Muton Software : Contact Us</title>
+<script language="JavaScript"> 
+function sanityCheck(){
+	if(document.getElementById('email').value=='' || document.getElementById('comments').value==''){
+		alert('E-mail and Comments can\'t be left blank.');
+	}
+	else{
+		document.commentform.submit();
+	}
+}
+</script> 
+
+</head>
+
+<body class="oneColFixCtrHdr nonmainpg">
+
+<div id="container">
+  <div id="header">
+    <div id="ttl">
+    	<a href="http://muton.in"><img border=0 src="img/muton.png" alt="Muton Software LLP" /></a>
+    </div>
+    <div id="tmenu">
+    	<ul>
+        	<li><a class ="tlink"  href="products.html">Products</a></li>
+            <li><a class ="tlink" href="http://blog.muton.in">Blog</a></li>
+            <li><a class ="tlink"  href="about.html">About Us</a></span></li>
+            <li class="isSel" id="ltmenu"><span>Contact</span></li>
+        </ul>
+    </div>
+    <div style="clear:both"></div>
+  <!-- end #header --></div>
+  
+  <div id="mainContent">
+  	<div id="subttl">
+  		<h1>Get in touch</h1>
+    </div>
+    <div id="prodList">
+    	<p>There are quite a few ways to get in touch with us</p>
+    	<div class="contactMeth">
+        	<h4>i. Send a message to information officer</h4>
+            <form style="margin-top:10px;" name="commentform" id="commentform" action="/gdform.php" method="post"> 
+            <input name="subject" value="Muton - Contact Us" type="hidden" /> <input name="redirect" type="hidden" />
+            <fieldset style="border:1px solid #DEDDEF;"><legend>Send a Message</legend>
+            <div>
+                <div style="float:left; width:250px;">Name:<br/><input style="width:230px;" name="Name" type="text" /></div>
+                <div style="float:left; width:250px; padding-left:10px;">E-Mail*:<br/><input style="width:230px;" name="email" id="email" type="text" /></div>
+                <div style="clear:both"></div>
+            </div>
+            <div>
+                Comments*:<br /><textarea name="comments" id="comments" style="width:500px;"  rows="3"></textarea>
+            </div>
+            <div>
+            	<button type="button" name="check" onclick="sanityCheck();">Submit</button>
+            </div>
+            </fieldset>
+        </form>
+    </div>
+    <div class="contactMeth">
+    	<h4>ii. E-mail us</h4><p><img src="img/mailId.png"/></p>
+    </div>
+    <!--
+    <div class="contactMeth">
+    	<h4>iii. Call us</h4>
+        <p>+91-7702209373, +91-9989208114, +91-9676277340</p>
+    </div>
+    -->
+    <div class="contactMeth">
+    	<h4>iii. Contact via snail mail</h4>
+        <p><strong>Registered Office:</strong><br />Muton Software LLP<br />S. 27/22 Meerapur Basahi, Shivpur, Varanasi<br />Uttar Pradesh, India 221003</p>
+        <p><strong>Hyderabad Office:</strong><br />Muton Software LLP<br />Flat No 104, Sri Sai Regidency, Lane#4, St#1, Brahmanwadi, Begumpet, Hyderabad<br />Andhra Pradesh, India 500016</p>
+    </div>
+    <!-- end #prodList--></div>
+    <div id="rightRail">
+    	<div class="rritem">
+        	<h4>Get updates</h4>
+            <ul>
+              <!--
+            	<li style="background-image:url(http://www.muton.in/favicon.ico);background-repeat:no-repeat;">Read our <a href="http://blog.muton.in">blog</a></li>
+              -->
+                <li style="background-image:url(http://www.twitter.com/favicon.ico);background-repeat:no-repeat;">Follow us on <a href="http://twitter.com/muton_tweets">Twitter</a></li>
+                <!--
+                <li style="background-image:url(http://www.facebook.com/favicon.ico);background-repeat:no-repeat;">Join our <a href="http://www.facebook.com/pages/muton/167145312366">Facebook page</a></li>
+                <li style="background-image:url(http://www.linkedin.com/favicon.ico);background-repeat:no-repeat;">Get connected via <a href="http://www.linkedin.com/groups?mostPopular=&gid=2231025">linkedIn</a></li>
+                -->
+            </ul>
+        </div>
+    </div>
+    <div style="clear:both"></div>
+  <!-- end #mainContent --></div>
+<!-- end #container --></div>
+<div id="footer">
+	<div id="footContent">
+    	<h3><a href="http://muton.in" style="text-decoration:none;">Muton Software LLP</a></h3>
+        <p>&nbsp;<a href="http://muton.in">Home</a>&nbsp;|&nbsp;<a href="http://educreek.com">EduCreek</a>&nbsp;|&nbsp;<a href="products.html">Products</a>&nbsp;|&nbsp;<a href="http://blog.muton.in">Blog</a>&nbsp;|&nbsp;<a href="about.html">About Us</a>&nbsp;|&nbsp;<a href="contact.html">Contact Us</a>&nbsp;|&nbsp;<a href="http://twitter.com/muton_tweets">Twitter</a>&nbsp;|&nbsp;<a href="http://www.facebook.com/pages/muton/167145312366">Facebook</a>&nbsp;|&nbsp;<a href="http://www.linkedin.com/groups?mostPopular=&gid=2231025">LinkedIn</a></p>
+        <p>&nbsp;</p>
+        <p>The names and logos for <a href="http://muton.in">Muton Software</a> and EduCreek are registered trademarks of <a href="http://muton.in">Muton Software, LLP</a></p>
+        <p>All text and design is copyright &copy;2010 <a href="http://muton.in">Muton Software, LLP</a>. All rights reserved.</p>
+    </div>
+<!-- end #footer --></div>
+</body>
+</html>
